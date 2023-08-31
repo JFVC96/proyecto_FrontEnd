@@ -1,0 +1,32 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;   
+}
+
+li{
+    margin: 5px;
+}
+
+button{
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+}
