@@ -57,3 +57,45 @@ h6{
 .biographyPlayers{
     font-size: 16px;
 }
+
+.footerPt1{
+    display: flex;
+    height: 224px;
+    background-color: #8B48BF;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.knowTeams{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.btn2{
+    background-color: #FFFFFF;
+}
+
+.lnkBtn2{
+    color: #8B48BF;
+    font-weight: 900;
+    margin: 0;
+}
+
+.footerPt2{
+    background-color: #000000;
+    height: 247px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeRs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listFooter{
+    list-style: none;
+}
