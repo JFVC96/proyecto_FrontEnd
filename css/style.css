@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -98,4 +100,21 @@ h6{
 
 .listFooter{
     list-style: none;
+}
+
+
+/* seccion del medio */
+
+.pregunta-sobre-pros{
+    background-color: #3CDDF3;
+}
+
+.contenedor-tres-articulos{
+    padding-top: 75px;
+}
+.contenedor-tres-articulos .numero-articulo{
+    display: inline;
+    background-color: #8B48BF;
+    border-radius: 20%;
+    padding: 10px;
 }
