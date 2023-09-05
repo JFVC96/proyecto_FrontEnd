@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
 }
 
 .encabezado{
@@ -105,35 +106,61 @@ h6{
 
 /* seccion del medio */
 
+/* seccion hero */
+.contenedor-hero{
+    padding: 10px;
+}
+
 .hero-imagen-principal img{
-    height: 100vh;
-    width: auto;
-    margin: 20px;
+    height: auto;
+    width: 100%;
 }
 
 .info-hero{
-    
-    text-align:right;
-    
+    text-align:right;  
 }
 
 .info-hero h1{
+    float: left;
     color:#232C50;
     font-size: 40px;
     font-weight: 700;
-
+    margin-bottom: 10px;
 }
 
+.parrafo-hero{
+  margin-bottom: 20px;
+}
+
+/* seccion pregunta */
 .pregunta-sobre-pros{
     background-color: #3CDDF3;
+    color: #FFFFFF;
+    padding: 30px 15px;
+    height: 30vh;
 }
 
 .contenedor-tres-articulos{
     padding-top: 75px;
 }
+
 .contenedor-tres-articulos .numero-articulo{
     display: inline;
     background-color: #8B48BF;
     border-radius: 20%;
     padding: 10px;
+}
+
+/* media query */
+@media(min-width:1440px){
+    .contenedor-hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-hero{
+        display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
 }
