@@ -105,6 +105,25 @@ h6{
 
 /* seccion del medio */
 
+.hero-imagen-principal img{
+    height: 100vh;
+    width: auto;
+    margin: 20px;
+}
+
+.info-hero{
+    
+    text-align:right;
+    
+}
+
+.info-hero h1{
+    color:#232C50;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
 .pregunta-sobre-pros{
     background-color: #3CDDF3;
 }
