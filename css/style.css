@@ -108,7 +108,7 @@ h6{
 
 /* seccion hero */
 .contenedor-hero{
-    padding: 10px;
+    padding: 25px;
 }
 
 .hero-imagen-principal img{
@@ -121,7 +121,6 @@ h6{
 }
 
 .info-hero h1{
-    float: left;
     color:#232C50;
     font-size: 40px;
     font-weight: 700;
@@ -137,18 +136,43 @@ h6{
     background-color: #3CDDF3;
     color: #FFFFFF;
     padding: 30px 15px;
-    height: 30vh;
+    height: 50vh;
 }
 
+.pregunta-sobre-pros h2{
+    margin-bottom: 35px;
+}
+
+.pregunta-sobre-pros p{
+    display: block;
+}
+
+.pregunta-sobre-pros .parrafo-dos{
+    display: none;
+}
+
+/* tres articulos */
 .contenedor-tres-articulos{
-    padding-top: 75px;
+    padding-top: 60px;
+    margin-left: 45px;
 }
 
-.contenedor-tres-articulos .numero-articulo{
+.contenedor-tres-articulos h4{
+    background-color: #dae0dc;
+    padding: 9px 0;
+}
+
+.contenedor-tres-articulos div{
     display: inline;
     background-color: #8B48BF;
     border-radius: 20%;
-    padding: 10px;
+   padding: 10px 20px;
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+
+.contenedor-tres-articulos p{
+    padding: 25px 8px
 }
 
 /* media query */
@@ -158,9 +182,31 @@ h6{
         justify-content: center;
         align-items: center;
     }
+
     .info-hero{
         display: flex;
     flex-direction: column;
     align-items: end;
     }
+
+    .pregunta-sobre-pros{
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh; 
+    }
+
+    .pregunta-sobre-pros h2{
+        margin: auto;
+    }
+
+    .pregunta-sobre-pros p{
+        display: none;
+    }
+
+    .pregunta-sobre-pros .parrafo-dos{
+        display: inline-block;
+    }
+
 }
