@@ -17,12 +17,12 @@ a{
     text-decoration: none;
 }
 
-ul{
+.listHeader{
     list-style: none;
     display: flex;   
 }
 
-li{
+.marginHeader{
     margin: 5px;
 }
 
@@ -33,7 +33,7 @@ button{
     border: none;
 }
 
-.btn{
+.btn1{
     color: #FFFFFF;
 }
 
@@ -61,6 +61,11 @@ h6{
     font-size: 16px;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
 .footerPt1{
     display: flex;
     height: 224px;
@@ -73,10 +78,6 @@ h6{
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 900;
-}
-
-.btn2{
-    background-color: #FFFFFF;
 }
 
 .lnkBtn2{
