@@ -15,12 +15,12 @@ a{
     text-decoration: none;
 }
 
-ul{
+.listHeader{
     list-style: none;
     display: flex;   
 }
 
-li{
+.marginHeader{
     margin: 5px;
 }
 
@@ -31,7 +31,7 @@ button{
     border: none;
 }
 
-.btn{
+.btn1{
     color: #FFFFFF;
 }
 
@@ -59,6 +59,11 @@ h6{
     font-size: 16px;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
 .footerPt1{
     display: flex;
     height: 224px;
@@ -73,14 +78,14 @@ h6{
     font-weight: 900;
 }
 
-.btn2{
-    background-color: #FFFFFF;
-}
-
 .lnkBtn2{
     color: #8B48BF;
     font-weight: 900;
     margin: 0;
+}
+
+.btn2{
+    background-color: white;
 }
 
 .footerPt2{
@@ -99,4 +104,20 @@ h6{
 
 .listFooter{
     list-style: none;
+    padding: 0;
+}
+
+.textFooter{
+    color: white;
+}
+
+.textCop{
+    color: #8C8C94;
+    font-size: 12.5px;
+    text-align: right;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
 }
