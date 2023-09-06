@@ -1,6 +1,8 @@
 *{
-    font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
 }
 
 .encabezado{
@@ -84,10 +86,6 @@ h6{
     margin: 0;
 }
 
-.btn2{
-    background-color: white;
-}
-
 .footerPt2{
     background-color: #000000;
     height: 247px;
@@ -104,20 +102,112 @@ h6{
 
 .listFooter{
     list-style: none;
-    padding: 0;
 }
 
-.textFooter{
-    color: white;
+
+/* seccion del medio */
+
+/* seccion hero */
+.contenedor-hero{
+    padding: 25px;
 }
 
-.textCop{
-    color: #8C8C94;
-    font-size: 12.5px;
-    text-align: right;
+.hero-imagen-principal img{
+    height: auto;
+    width: 100%;
 }
 
-.form{
-    display: flex;
+.info-hero{
+    text-align:right;  
+}
+
+.info-hero h1{
+    color:#232C50;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.parrafo-hero{
+  margin-bottom: 20px;
+}
+
+/* seccion pregunta */
+.pregunta-sobre-pros{
+    background-color: #3CDDF3;
+    color: #FFFFFF;
+    padding: 30px 15px;
+    height: 50vh;
+}
+
+.pregunta-sobre-pros h2{
+    margin-bottom: 35px;
+}
+
+.pregunta-sobre-pros p{
+    display: block;
+}
+
+.pregunta-sobre-pros .parrafo-dos{
+    display: none;
+}
+
+/* tres articulos */
+.contenedor-tres-articulos{
+    padding-top: 60px;
+    margin-left: 45px;
+}
+
+.contenedor-tres-articulos h4{
+    background-color: #dae0dc;
+    padding: 9px 0;
+}
+
+.contenedor-tres-articulos div{
+    display: inline;
+    background-color: #8B48BF;
+    border-radius: 20%;
+   padding: 10px 20px;
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+
+.contenedor-tres-articulos p{
+    padding: 25px 8px
+}
+
+/* media query */
+@media(min-width:1440px){
+    .contenedor-hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-hero{
+        display: flex;
     flex-direction: column;
+    align-items: end;
+    }
+
+    .pregunta-sobre-pros{
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh; 
+    }
+
+    .pregunta-sobre-pros h2{
+        margin: auto;
+    }
+
+    .pregunta-sobre-pros p{
+        display: none;
+    }
+
+    .pregunta-sobre-pros .parrafo-dos{
+        display: inline-block;
+    }
+
 }
