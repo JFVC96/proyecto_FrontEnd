@@ -142,6 +142,7 @@ h6{
 
 .pregunta-sobre-pros h2{
     margin: 30px 0;
+    flex: 0.5;
 }
 
 .pregunta-sobre-pros p{
@@ -178,7 +179,7 @@ h6{
 }
 
 /* media query */
-@media(min-width:768px){
+@media(min-width:1024px){
     /* hero */
     .contenedor-hero{
         display: flex;
@@ -215,7 +216,11 @@ h6{
       
     /* seccion articulos */
     .contenedor-tres-articulos{
-        margin: 52px
+        margin: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
                  
     }
 
@@ -226,17 +231,21 @@ h6{
     .contenedor-articulo-uno-dos{
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     
     .primer-articulo{
         flex: 0.4;
+        min-width: 400px;
     }
     .segundo-articulo{
         flex: 0.4;
+        min-width: 400px;
     }
 
     .tercer-articulo{
-        padding: 12px 430px 0 430px;
+        width: 30%;
+        min-width: 400px;
     }
 
 }
