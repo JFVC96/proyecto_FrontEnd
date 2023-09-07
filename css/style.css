@@ -179,14 +179,12 @@ h6{
 }
 
 /* media query */
-@media(min-width:1440px){
+@media(min-width:768px){
     /* hero */
     .contenedor-hero{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
-        flex: 0.4;
-    
+        align-items: center; 
     gap: 20px;
     }
 
@@ -194,18 +192,16 @@ h6{
         display: flex;
     flex-direction: column;
     align-items: end;
+    flex: 0.52;
+    gap: 25px;
     }
     /* seccion pregunta */
     .pregunta-sobre-pros{
         background-color: #8B48BF;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        height: 20vh; 
-    }
-
-    .pregunta-sobre-pros h2{
-        margin: auto;
+        height:100%; 
     }
 
     .pregunta-sobre-pros p{
@@ -214,7 +210,8 @@ h6{
 
     .pregunta-sobre-pros .parrafo-dos{
         display: inline-block;
-        justify-content: center;
+        flex: 0.45;
+   
     }
       
     /* seccion articulos */
