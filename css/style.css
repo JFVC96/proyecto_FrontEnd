@@ -181,6 +181,7 @@ h6{
 
 .pregunta-sobre-pros h2{
     margin: 30px 0;
+    flex: 0.5;
 }
 
 .pregunta-sobre-pros p{
@@ -194,8 +195,7 @@ h6{
 
 /* tres articulos */
 .contenedor-tres-articulos{
-    padding-top: 60px;
-    margin-left: 45px;
+    margin: 30px 0 10px 30px;
 }
 
 .contenedor-tres-articulos h4{
@@ -204,7 +204,7 @@ h6{
     border-radius: 30px 0 0 30px;
 }
 
-.contenedor-tres-articulos div{
+.contenedor-tres-articulos .numero-articulo {
     display: inline;
     background-color: #8B48BF;
     border-radius: 30px;
@@ -218,7 +218,7 @@ h6{
 }
 
 /* media query */
-@media(min-width:1440px){
+@media(min-width:1024px){
     /* hero */
     .listHeader{
         list-style: none;
@@ -292,9 +292,7 @@ h6{
     .contenedor-hero{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
-        flex: 0.4;
-    
+        align-items: center; 
     gap: 20px;
     }
 
@@ -302,18 +300,16 @@ h6{
         display: flex;
     flex-direction: column;
     align-items: end;
+    flex: 0.52;
+    gap: 25px;
     }
     /* seccion pregunta */
     .pregunta-sobre-pros{
         background-color: #8B48BF;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        height: 20vh; 
-    }
-
-    .pregunta-sobre-pros h2{
-        margin: auto;
+        height:100%; 
     }
 
     .pregunta-sobre-pros p{
@@ -322,27 +318,42 @@ h6{
 
     .pregunta-sobre-pros .parrafo-dos{
         display: inline-block;
-        justify-content: center;
+        flex: 0.45;
+   
     }
       
     /* seccion articulos */
     .contenedor-tres-articulos{
-        height: 500px;
+        margin: 52px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-                
+        align-items: center;
+                 
     }
 
     .contenedor-tres-articulos h4{
         background-color: #fff;
     }
+
+    .contenedor-articulo-uno-dos{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
     
+    .primer-articulo{
+        flex: 0.4;
+        min-width: 400px;
+    }
     .segundo-articulo{
-        order: 1;
+        flex: 0.4;
+        min-width: 400px;
     }
 
     .tercer-articulo{
-        align-self: flex-end;
+        width: 30%;
+        min-width: 400px;
     }
 
 }
