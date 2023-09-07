@@ -7,8 +7,8 @@
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;600;700&family=Inter:wght@200;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;600;700&family=Inter:wght@200;500;600&display=swap" rel="stylesheet">
 
     <!-- style.css -->          
     <link rel="stylesheet" href="css/style.css">
@@ -20,16 +20,20 @@
                 <a href="index.html"><img src="imagenes/logo.svg" alt="Logo"></a>
             </div>
             <div>
-                <ul>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Trainning</a></li>
-                    <li><a href="#">Community</a></li>
+                <ul class="listHeader">
+                    <li class="marginHeader"><a href="#">Sports</a></li>
+                    <li class="marginHeader"><a href="#">Products</a></li>
+                    <li class="marginHeader"><a href="#">About Us</a></li>
+                    <li class="marginHeader"><a href="#">Trainning</a></li>
+                    <li class="marginHeader"><a href="#">Community</a></li>
                 </ul>
             </div>
             <div>
-                <button><a class="btn" href="#">Contact</a></button>
+                <button class="btnHeader"><a class="btn1" href="#">Contact</a></button>
+            </div>
+            <!-- Hamburguesa movil -->
+            <div class="menu">
+                <a href="#"><img src="imagenes/icon-hamburger.svg" alt="Menu"></a>
             </div>
         </section>
     </header> 
@@ -44,17 +48,17 @@
                 <h1>LIVE: Follow the <br>  Telcel Huawei  Mexico Open 2022 <br> for free </h1>
 
                 <p class="parrafo-hero" >The final Open of the 2022 World Padel Tour <br> season is underway, don't miss out on any of the action!</p>
-                <button>Contact</button>
+                <button><a class="btn1" href="#">Contact</a></button>
             </div>
         </section>
 <!-- SECCION PREGUNTA -->
         <section>
             <article class="pregunta-sobre-pros">
-     <h2>What´s different between pros?</h2>
+                <h2>What´s different between<br>pros?</h2>
 
-     <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made  for modern digital product teams</p>
+                <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made  for modern digital product teams</p>
 
-     <p class="parrafo-dos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Maecenas aliquet consequat purus sit amet sodales. In <br> faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed <br> tincidunt tincidunt.</p>
+                <p class="parrafo-dos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Maecenas aliquet consequat purus sit amet sodales. In <br> faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed <br> tincidunt tincidunt.</p>
 
     </article>
         </section>
@@ -80,21 +84,21 @@
         <section>
             <p class="titlePt3">Best of the month</p>
             <article class="mainPt3">
-                <div class="bestPlayers">
+                <div class="bestPlayers2">
                     <center><img src="imagenes/avatar-sanyo.png" alt="Avatar Sanyo"></center>
                     <h6>Sanyo</h6>
                     <p class="biographyPlayers">
                         Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
                     </p>
                 </div>
-                <div class="bestPlayers">
+                <div class="bestPlayers1">
                     <center><img src="imagenes/avatar.lebron.png" alt="Avatar Lebron"></center>
                     <h6>Lebron</h6>
                     <p class="biographyPlayers">
                         Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
                     </p>
                 </div>
-                <div class="bestPlayers">
+                <div class="bestPlayers2">
                     <center><img src="imagenes/avatar-navarro.png" alt="Avatar Navarro"></center>
                     <h6>Navarro</h6>
                     <p class="biographyPlayers">
@@ -102,22 +106,19 @@
                     </p>
                 </div>
             </article>
-            <div class="btn"><button><a class="btn1" href="#">More</a></button></div>
+            <div class="btn"><button><a class="btn3" href="#">More</a></button></div>
+            <br>
         </section>
     </main>
     <footer>
-        <br>
         <section class="footerPt1">
             <p class="knowTeams">Get to know the best <br> teams of the year</p>
             <button class="btn2"><a class="lnkBtn2" href="#">Go for it</a></button>
         </section>
         <section class="footerPt2">
             <article class="homeRs">
-                <a href="index.html"><img src="imagenes/logo.svg" alt="Logo"></a>
-                <br>
-                <br>
-                <br>
-                <div>
+                <a class="textBtn" href="index.html"><img src="imagenes/logo.svg" alt="Logo"></a>
+                <div class="allRs">
                     <a href="#"><img src="imagenes/icon-facebook.svg" alt="Facebook"></a>
                     <a href="#"><img src="imagenes/icon-youtube.svg" alt="YouTube"></a>
                     <a href="#"><img src="imagenes/icon-twitter.svg" alt="Twitter"></a>
@@ -125,21 +126,23 @@
                     <a href="#"><img src="imagenes/icon-instagram.svg" alt="Instagram"></a>
                 </div>
             </article>
-            <article>
-                <ul class="listFooter">
-                    <li><a class="textFooter" href="#">Home</a></li>
-                    <li><a class="textFooter" href="#">Pricing</a></li>
-                    <li><a class="textFooter" href="#">Products</a></li>
-                    <li><a class="textFooter" href="#">About Us</a></li>
-                </ul>
-            </article>
-            <article>
-                <ul class="listFooter">
-                    <li><a class="textFooter" href="#">Trainning</a></li>
-                    <li><a class="textFooter" href="#">Community</a></li>
-                    <li><a class="textFooter" href="#">Privacy Policy</a></li>
-                </ul>
-            </article>
+            <div class="listsFooter">
+                <div>
+                    <ul class="listFooter listFooter1">
+                        <li><a class="textFooter" href="#">Home</a></li>
+                        <li><a class="textFooter" href="#">Pricing</a></li>
+                        <li><a class="textFooter" href="#">Products</a></li>
+                        <li><a class="textFooter" href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="listFooter listFooter2">
+                        <li><a class="textFooter" href="#">Trainning</a></li>
+                        <li><a class="textFooter" href="#">Community</a></li>
+                        <li><a class="textFooter" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
             <article class="form">
                 <form action="#" method="POST">
                     <input type="email" name="email" placeholder="Update in your inbox...">
