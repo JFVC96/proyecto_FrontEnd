@@ -25,6 +25,11 @@ a{
     margin: 5px;
 }
 
+input{
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+}
+
 button{
     background-color: #8B48BF;
     padding: 10px 30px 10px 30px;
@@ -44,6 +49,7 @@ button{
 
 .mainPt3{
     display: flex;
+    margin: 20px;
 }
 
 .bestPlayers1{
@@ -153,6 +159,10 @@ h6{
     order: 2;
     text-align: center;
     font-size: 12.5px;
+}
+
+li{
+    padding-bottom: 8px;
 }
 
 /* seccion del medio */
@@ -324,7 +334,8 @@ h6{
     .form{
         display: flex;
         flex-direction: column;
-        
+        height: 200px;
+        justify-content: space-evenly;
     }
 
     .textCop1{
