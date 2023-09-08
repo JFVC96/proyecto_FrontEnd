@@ -47,7 +47,7 @@ button{
 }
 
 .bestPlayers1{
-    padding: 80px 20px 40px 20px;
+    content: 80px 20px 40px 20px;
 }
 
 .bestPlayers2{
@@ -62,6 +62,7 @@ h6{
 
 .biographyPlayers{
     font-size: 16px;
+    padding: 20px 15px 20px 15px;
 }
 
 .btn{
@@ -263,6 +264,14 @@ h6{
         justify-content: space-around;
     }
 
+    .bestPlayers2{
+        display: inline;
+    }
+
+    .biographyPlayers{
+        padding: 20px 15px 20px 15px;
+    }
+
     .knowTeams{
         text-align: left;
     }
@@ -297,9 +306,15 @@ h6{
         order: -2;
     }
     
+    .allRs{
+        width: 200px;
+    }
+
     .listsFooter{
         list-style: none;
         order: -1;
+        width: 30%;
+        justify-content: space-between;
     }
     
     .textFooter{
@@ -307,7 +322,9 @@ h6{
     }
 
     .form{
-
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .textCop1{
