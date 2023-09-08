@@ -105,31 +105,31 @@ h6{
     height: 400px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: column;
 }
 
 .homeRs{
     display: flex;
     flex-direction: column;
-    align-items: center;
     order: 1;
 }
 
 .textBtn{
     order: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .allRs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+
 }
 
 .listsFooter{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .listFooter{
@@ -137,11 +137,21 @@ h6{
 }
 
 .textFooter{
-    color: white;
+    color: #FFFFFF;
 }
 
 .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     order: -1;
+}
+
+.textCop2{
+    color: #8C8C94;
+    order: 2;
+    text-align: center;
+    font-size: 12.5px;
 }
 
 /* seccion del medio */
@@ -225,6 +235,10 @@ h6{
         display: flex; 
     }
 
+    .btnHeader{
+        display: inline;
+    }
+
     .encabezado{
         display: flex;
         flex-direction: row;
@@ -247,19 +261,14 @@ h6{
         height: 224px;
         background-color: #8B48BF;
         justify-content: space-around;
-        align-items: center;
     }
 
-    .bestPlayers1{
-        padding: 20px;
-    }
-
-    .bestPlayers2{
-        padding: 20px;
+    .knowTeams{
+        text-align: left;
     }
 
     .btn2{
-        background-color: white;
+        background-color: #FFFFFF;
     }
 
     .lnkBtn2{
@@ -275,18 +284,41 @@ h6{
         flex-direction: row;
     }
     
+    .textBtn{
+        order: 0;
+
+    }
+
     .homeRs{
         display: flex;
         flex-direction: column;
         align-items: center;
+        content: 200px;
+        order: -2;
     }
     
-    .listFooter{
+    .listsFooter{
         list-style: none;
+        order: -1;
     }
     
     .textFooter{
         color: white;
+    }
+
+    .form{
+
+    }
+
+    .textCop1{
+        color: #8C8C94;
+        order: 2;
+        text-align: right;
+        font-size: 12.5px;
+    }
+
+    .textCop2{
+        display: none;
     }
     
     .contenedor-hero{
